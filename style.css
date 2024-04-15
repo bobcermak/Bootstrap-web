@@ -12,38 +12,101 @@
 
   /*Header*/
 
-  .menu {
-    background-color: orange;
-  }
 
   header h1 {
     font-size: 22px;
     font-weight: 800;
     left: 14%;
     cursor: pointer;
-    
   }
 
   header menu {
-    margin-left: -55%;
+    margin-left: -100%;
     list-style: none;
   }
 
-  .btn {
-    background-color: orange;
-    border: none;
+  header li a {
+    text-decoration: none;
     color: black;
-  }
-
-  .btn:hover {
-    color: aliceblue;
-  }
-
-  header li {
     cursor: pointer;
     transition: 0.2s all;
   }
 
-  header li:hover {
+  header li a:hover {
     color: rgb(106, 114, 114);
   }
+
+  /*Main*/
+
+  /*Securing*/
+
+.securing {
+  border: 2px solid rgb(231, 225, 225);
+  margin-left: 20%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.fs-1 {
+  font-weight: 800;
+}
+
+.making {
+  top: 63%;
+  font-size: 18px;
+}
+
+/*Terms*/
+
+
+.terms {
+  margin-left: 20%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.terms p {
+  left: 2%;
+  top: 30%;
+}
+
+.terms a {
+  font-weight: 700;
+  color: rgb(25, 25, 189);
+  transition: 0.25s all;
+}
+
+.terms a:hover {
+  color: grey;
+}
+
+/*Footer*/
+
+
+footer {
+ margin-top: 15%;
+}
+
+footer h2 {
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+  top: 10%;
+  left: 5%;
+}
+
+footer p {
+  top: 83%;
+  left: 52%;
+}
+
+footer a {
+  top: 83%;
+  left: 44%;
+  color: grey;
+  transition: 0.2s all;
+}
+
+footer a:hover {
+  color: white;
+}
