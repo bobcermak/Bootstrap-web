@@ -21,6 +21,7 @@
     font-weight: 800;
     left: 14%;
     cursor: pointer;
+    
   }
 
   header menu {
@@ -40,8 +41,9 @@
 
   header li {
     cursor: pointer;
+    transition: 0.2s all;
   }
 
   header li:hover {
-    color: azure;
+    color: rgb(106, 114, 114);
   }
