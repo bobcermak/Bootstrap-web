@@ -114,3 +114,11 @@ footer a {
 footer a:hover {
   color: white;
 }
+
+
+
+@media only screen and (max-width: 1700px) {
+  header menu {
+    margin-left: 35%;
+  }
+}
