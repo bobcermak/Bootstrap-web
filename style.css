@@ -21,8 +21,8 @@
   }
 
   header menu {
-    margin-left: -100%;
     list-style: none;
+    margin-left: 28%;
   }
 
   header li a {
@@ -30,6 +30,10 @@
     color: black;
     cursor: pointer;
     transition: 0.2s all;
+  }
+
+  header li {
+    margin-top: 2.5%;
   }
 
   header li a:hover {
