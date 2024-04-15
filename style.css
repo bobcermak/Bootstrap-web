@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  
+  }
+  
+  html {
+    scroll-behavior: smooth
+  }
+
+  /*Header*/
+
+  .menu {
+    background-color: orange;
+  }
+
+  header h1 {
+    font-size: 22px;
+    font-weight: 800;
+    left: 14%;
+    cursor: pointer;
+  }
+
+  header menu {
+    margin-left: -55%;
+    list-style: none;
+  }
+
+  .btn {
+    background-color: orange;
+    border: none;
+    color: black;
+  }
+
+  .btn:hover {
+    color: aliceblue;
+  }
+
+  header li {
+    cursor: pointer;
+  }
+
+  header li:hover {
+    color: azure;
+  }
